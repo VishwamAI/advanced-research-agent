@@ -2,9 +2,9 @@ name: CI/CD
 
 on:
   push:
-    branches: [ main ]
+    branches: [ devin/initial-setup/19394 ]
   pull_request:
-    branches: [ main ]
+    branches: [ devin/initial-setup/19394 ]
 
 jobs:
   build:
